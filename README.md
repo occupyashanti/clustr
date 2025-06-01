@@ -1,25 +1,24 @@
 
-# Clustr ✨
+# Clustr 
 
 ### A Unified Entropy-Run Compressor
 
-![Clustr Logo](https://via.placeholder.com/800x200.png?text=Clustr+Entropy+Run+Compressor) <!-- Replace with actual logo -->
 
 > **Clustr** combines run-length encoding and entropy coding (ANS) into a seamless, high-performance compression engine. Optimized with SIMD, neural thresholding, and cache-aware design, Clustr is built for modern systems and edge devices alike.
 
 ---
 
-## 🔢 Key Features
+##  Key Features
 
-* ✨ **Unified Run + Entropy Codec** — Run-length detection is natively fused into entropy encoding with no pre-pass.
-* 🧐 **Neural Adaptive Thresholding** — 5-15% better compression by predicting optimal run segmentation.
-* ⚡ **SIMD-Accelerated Detection** — AVX-512/NEON boosted run scanning at up to 64B/cycle.
-* 🧠 **Cache-Oblivious ANS Engine** — Multi-level prefetching for peak decode performance.
-* 🚀 **Bitstream Turbo Mode** — Branchless flush, 64-bit buffers, and zero-copy output.
+* **Unified Run + Entropy Codec** — Run-length detection is natively fused into entropy encoding with no pre-pass.
+* **Neural Adaptive Thresholding** — 5-15% better compression by predicting optimal run segmentation.
+* **SIMD-Accelerated Detection** — AVX-512/NEON boosted run scanning at up to 64B/cycle.
+* **Cache-Oblivious ANS Engine** — Multi-level prefetching for peak decode performance.
+* **Bitstream Turbo Mode** — Branchless flush, 64-bit buffers, and zero-copy output.
 
 ---
 
-## ⚖️ Compression Ratios (Real-world Data)
+##  Compression Ratios (Real-world Data)
 
 | Dataset      | Clustr | zstd | Brotli | LZMA |
 | ------------ | ------ | ---- | ------ | ---- |
@@ -30,7 +29,7 @@
 
 ---
 
-## ⚙️ Install
+## Install
 
 ```bash
 # Clone the repository
@@ -44,7 +43,7 @@ cmake .. && make -j
 
 ---
 
-## 📁 Usage
+##  Usage
 
 ```bash
 # Compress a file
@@ -68,7 +67,7 @@ original = decompress(compressed)
 
 ---
 
-## 🥇 Architecture Highlights
+## Architecture Highlights
 
 * **Run-Length Fusion**:
 
@@ -89,7 +88,7 @@ original = decompress(compressed)
 
 ---
 
-## 🎯 Performance
+##  Performance
 
 | Metric           | Clustr       | zstd     | Brotli   |
 | ---------------- | ------------ | -------- | -------- |
@@ -99,7 +98,7 @@ original = decompress(compressed)
 
 ---
 
-## 🚜 Use Cases
+##  Use Cases
 
 * ⌚ Time-series & IoT sensors (delta + run fusion)
 * 📆 Log storage engines
@@ -109,7 +108,7 @@ original = decompress(compressed)
 
 ---
 
-## 🚀 Roadmap
+## Roadmap
 
 * [x] Cache-aware ANS tables
 * [x] SIMD-optimized run detector (AVX-512)
@@ -127,7 +126,7 @@ MIT License. Use freely, improve openly.
 
 ---
 
-## ✨ Contribute
+## Contribute
 
 We welcome PRs for:
 
