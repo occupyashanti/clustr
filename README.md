@@ -140,12 +140,5 @@ ctest --output-on-failure
 ```
 
 ---
-
-## 📱 Connect
-
-* Twitter: [@clustr\_codec](https://twitter.com/clustr_codec)
-* Discussions: [GitHub Discussions](https://github.com/yourname/clustr/discussions)
-* Contact: `hello@clustr.dev`
-
 > Designed for modern workloads. Inspired by nature.
 > **Clustr: Where entropy meets order.**
